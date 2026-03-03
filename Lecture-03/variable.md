@@ -38,6 +38,8 @@ It means if you declare the variable without using const or let. Then Javascript
 # The Way of Print
 const accountId=10;
 let accountName="savings";
+var accountBalance="10000";
+accountcity="chennai";
 console.log(accountId);
 console.log(accountName);   
 console.table([accountId,accountName,accountBalance,accountcity]); // This table through value show in table format like ![alt text](1772509283222.png)
@@ -51,4 +53,5 @@ Second Option :- /* */
 If we decalre the variable but not giving the value then js print undefined. 
 Example :- 
 let state;
+
 console.log(state) // output:- undefined
