@@ -1,0 +1,2 @@
+let e=BigInt("123456789012345678901234567890");
+console.log("BigInt Type ",e);  //Output: BigInt Type  123456789012345678901234567890n
